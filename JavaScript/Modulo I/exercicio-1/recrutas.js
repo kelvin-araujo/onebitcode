@@ -6,7 +6,7 @@ const idade = 2023 - (ano)
 
 alert(
   ' Cadastro realizado com sucesso! \n' +
-  '\n Nome completo:' + nome + '' + sobrenome + 
-  '\n Campo de estudo:' + estudo +
-  '\n Idade:' + idade 
+  '\n Nome completo: ' + nome + '' + sobrenome + 
+  '\n Campo de estudo: ' + estudo +
+  '\n Idade: ' + idade 
 )
