@@ -1,11 +1,7 @@
 // inicialização ; condição ; finalização
-let indice = 0;
 
-for (
-  alert('Inicializando o for'); 
-  indice <= 3; 
-  alert('Finalizando um bloco de repetição')
-  ) {
-  alert('Índice = ' + indice)
-  indice++
+let nome = 'Kelvin Araújo'
+
+for ( let indice = 0; indice < nome.length ; indice++ ) {
+  console.log(nome[indice])
 }
