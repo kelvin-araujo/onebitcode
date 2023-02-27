@@ -3,7 +3,7 @@ let option = ''
 
 do {
   let patients = ''
-  for (let i = 0; i < row; i++) {
+  for (let i = 0; i < row.length; i++) {
     patients += (i + 1) + 'º - ' + row[i] + '\n'
   }
 
