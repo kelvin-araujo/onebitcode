@@ -12,7 +12,7 @@ do {
     '\nEscolha uma ação:\n1. Novo Paciente\n2. Consultar Paciente\n3. Sair'
   )
 
-  switch(opcao) {
+  switch(option) {
     case '1':
       const newPatients = prompt('Qual é o nome do paciente?')
       row.push(newPatients)
