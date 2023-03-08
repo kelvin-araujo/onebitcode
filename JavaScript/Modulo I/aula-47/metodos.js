@@ -9,3 +9,5 @@ let pessoa = {
 console.log(pessoa)
 
 pessoa.dizerOla()
+
+// Metodos são funções dentro de objetos. Podemos utilizar uma propriedade do objeto utilizando o this.
