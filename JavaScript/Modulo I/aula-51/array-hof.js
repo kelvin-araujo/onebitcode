@@ -62,9 +62,27 @@ console.log(orcs)
 // -------------- REDUCE ------------
 /* Serve para iterar sobre um array e utilizar o valor de cada item para criar um objeto final com base em alguma regra. Como o próprio nome da função sugere, ela “reduz” os itens de um vetor a um valor único */
 
+const nivelToltal = personagens.reduce( function (valorAcumulado, personagem) {
+  return valorAcumulado + personagem.nivel
+}, 0)
 
+console.log(nivelToltal)
 
+// No exemplo acima somamos os niveis dos personagens usano o reduce. Ele esta inteirando sobre o array e acumulando os valores de niveis para formar um objeto final. O zero é pra indicar o valor inicial do valorAumulado
 
+const racas = personagens.reduce (function (valorAcumulado, personagem) {
+  if (valorAcumulado[personagem.raca]){
+    valorAcumulado[personagem.raca].push(personagem)
+  } else {
+    valorAcumulado[personagem.raca] = [personagem]
+  }
+
+  return valorAcumulado
+}, {})
+
+console.log(racas)
+
+// ---------------- SORT -----------------
 
 
 
