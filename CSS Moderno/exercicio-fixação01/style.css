@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  align-items: center;
+}
+
+.logo-rock {
+  width: 40px;
+}
+
+.logo-onebitcode {
+  width: 200px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;  
+}
+
+.buttonHeader {
+  font-size: 15px;
+  padding: 8px 12px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.buttonHeader:hover {
+  border-color: #ff0044;
+}
+
+
