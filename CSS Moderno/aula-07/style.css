@@ -32,11 +32,18 @@
 
 /*
 - display: flex;  --> Deixa os itens com alinhamento horizontal ou em linha
+
 - flex-direction; --> Deixa os itens em coluna ou em linha (column / row ). é possível usar o reverse para inverter os itens de trás para frente ( reverse )
-- row-gap;        --> Define o espaçamento entre os itens em linha
-- column-gap;     --> Define o espaçamento entre os itens em coluna
-- gap;            --> Define o espaçamento em linha e coluna ( shorthand )
+
+- row-gap; --> Define o espaçamento entre os itens em linha
+
+- column-gap; --> Define o espaçamento entre os itens em coluna
+
+- gap; --> Define o espaçamento em linha e coluna ( shorthand )
+
 - justify-content --> alinhamento do flex container na horizontal. center = centraliza flex-start = início / flex-end = final / space-around = os itens ficam com o mesmo espaço na direita e esquerda / space-between = deixa todos os itens mais separados possíveis / space-evenly = deixa todos os espaçamentos iguais
-- align-items;    --> alinhamento do flex container na vertical. Possui as mesmas propriedade de centralizar os items no meio, final e início. Possui a propriedade stretch que estica os itens na vertical
-- flex-wrap;        --> quebra os itens para caber na tela quando ela é reduzida. Podemos usar o reverse para quebrar os itens de trás para frente
+
+- align-items; --> alinhamento do flex container na vertical. Possui as mesmas propriedade de centralizar os items no meio, final e início. Possui a propriedade stretch que estica os itens na vertical
+
+- flex-wrap; --> quebra os itens para caber na tela quando ela é reduzida. Podemos usar o reverse para quebrar os itens de trás para frente
 */

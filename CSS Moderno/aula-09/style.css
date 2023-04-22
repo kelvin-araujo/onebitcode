@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: darkgray;
+  min-height: 100vh;
+  display: flex;
+  gap: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  
+}
+
+.item {
+  width: 100%; 
+  height: 70px; 
+  background-color: white;
+  border: 2px solid black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  
+}
+
+.item2 {
+ flex: 1 0 200px;
+}
+
+.item3 {
+
+}
+
+/*
+flex-basis  --> define o tamanho inicial que um item deve ter antes que o espaço ao seu redor seja distribuído. define a largura ou altura mínima do elemento antes que ele seja redimensionado por outras propriedades.
+
+flex-grow  --> Esta propriedade define a proporção com que um item deve crescer caso seja necessário. Por padrão seu valor é 0. Se colocarmos 1, o item irá quebrar ou esticar para atingir todo o tamanho da horizontal. Se tivermos um item com flex-grow 1 e outro com 2, o segundo item ficará maior
+
+flex-shrink --> define a proporção com que um item deve encolher caso seja necessário. Essa propriedade aceita apenas valores positivos, e seu valor padrão é 1. Se for setado para 0 o item não irá diminuir
+
+flex  --> shorthand para o grow, shrink e basis.
+
+
+*/
