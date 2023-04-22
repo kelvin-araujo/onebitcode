@@ -45,5 +45,7 @@
 
 - align-items; --> alinhamento do flex container na vertical. Possui as mesmas propriedade de centralizar os items no meio, final e início. Possui a propriedade stretch que estica os itens na vertical
 
+- align-content --> alinha as linhas de um container flex quando há espaço extra no eixo cruzado.
+
 - flex-wrap; --> quebra os itens para caber na tela quando ela é reduzida. Podemos usar o reverse para quebrar os itens de trás para frente
 */
