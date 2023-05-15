@@ -17,4 +17,5 @@ document.getElementById('lightBtn').addEventListener('click', useLightTheme)
 document.getElementById('darkBtn').addEventListener('click', useDarkTheme)
 document.getElementById('switchBtn').addEventListener('click', switchTheme)
 
-// 
+// A propriedade classList permite que a gente manipule as classes do elemento
+// A propriedade toggle permite alternar as classes de um elemento
