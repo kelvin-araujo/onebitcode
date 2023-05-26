@@ -56,7 +56,7 @@ function handleWin(regions) {
   })
   const playerName = document.getElementById(turnPlayer).value
   document.querySelector('h2').innerHTML = playerName + ' venceu!'
-}
+} // Pinta as regiões onde o jogador venceu e mostra seu nome na tela
 
 function handleBoardClick (ev) {
    // Obtém os índices da região clicada
