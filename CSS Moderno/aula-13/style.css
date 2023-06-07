@@ -9,10 +9,23 @@ body {
 .container {
   background-color: darkgray;
   min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 15px;
+  grid-auto-rows: minmax(210px, 240px);
 }
 
 .item {
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 30px;
+  padding: 10px;
 }
+
+/*
+grid-template-columns - Define o número total de colunas que serão criadas no grid. fr é uma unidade fracional. repeat é um shorthand para numero e tamanho das colunas.
+
+grid-template-rows - Define a quantidade e tamanho das linhas 
+
+grid-auto-rows - Define automaticamente o tamanho da linha. A proprieade minmax define o tamanho mínimo e máximo que a linha pode alcançar.
+*/
