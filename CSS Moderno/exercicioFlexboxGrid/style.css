@@ -137,21 +137,23 @@
   padding: 10px;
 }
 
-.footer {
-  display: flex;
-  background-color: #292929;
-  height: 70px;
-  justify-content: space-between;
-  align-items: center;
+.logoFooter {
+  width: 180px;
 }
 
-.logoFooter {
-  width: 200px;
-  padding: 20px;
+.footer {
+  width: 100%;
+  min-height: 40px;
+  background-color: #292929;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 15px;
 }
 
 .footerAnchor {
   color: white;
   text-decoration: none;
-  padding: 20px;
 }
