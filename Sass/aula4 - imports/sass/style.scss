@@ -1,0 +1,7 @@
+// Import Colors
+@import './colors/colors.scss';
+
+// Import Home
+@import './pages/home.scss';
+
+// Existe uma hierarquia. O colors foi importado primeiro porque nele contém as variáveis que o home irá utilizar.
