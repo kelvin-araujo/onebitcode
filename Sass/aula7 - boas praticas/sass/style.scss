@@ -1,5 +1,11 @@
 //Colors
-@import "../variables/colors/colors.scss";
+@import "variables/colors/colors.scss";
 
 // Commons
-@import "../common/common.scss";
+@import "variables/common/common.scss";
+
+// Cadastro
+@import "./pages/cadastro.scss";
+
+// Login
+@import "./pages/login.scss";
