@@ -1,5 +1,5 @@
 {
-  "name": "modulo-iii",
+  "name": "32-usando-o-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9"
+  }
 }
