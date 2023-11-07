@@ -3,7 +3,7 @@ const Character = require("./Character");
 class Warrior extends Character {
   constructor(name, lifePts, attackPts, defensePts, shieldPts) {
     super(name, lifePts, attackPts, defensePts)
-    this.shieldPts = this.shieldPts
+    this.shieldPts = shieldPts
     this.stance = 'attacking'
   }
 
@@ -19,7 +19,9 @@ class Warrior extends Character {
       this.defensePts += this.shieldPts
     } else {
       this.stance = 'attacking'
-      this.defensePts.Pts -= this.shieldPts
+      this.defensePts -= this.shieldPts
     }
   }
 }
+
+module.exports = Warrior
