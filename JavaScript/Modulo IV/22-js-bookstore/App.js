@@ -13,7 +13,7 @@ module.exports = class App {
   }
 
   getUsers() {
-    App.#database.find('users')
+    return App.#database.find('users')
   }
 
   createAuthor(name, nationality, bio) {
@@ -22,7 +22,7 @@ module.exports = class App {
   }
 
   getAuthors() {
-    App.#database.find('author')
+    return App.#database.find('author')
   }
 
   createBook(title, synopsis, genre, pages, author, description, price, inStock) {
@@ -33,6 +33,10 @@ module.exports = class App {
     addBook (bookName, quantity) {
       App.#database.addBooksToStock(bookName, quantity)
     }
+
+    getBooks() {
+      return App.#database.find('books')
+    }
   
 
   createPoster(name, description, height, width, price, inStock) {
@@ -42,6 +46,10 @@ module.exports = class App {
 
     addPoster(posterName, quantity) {
       App.#database.addPostersToStock(posterName, quantity)
+    }
+
+    getPoster() {
+      return App.#database.find('posters')
     }
 
 
@@ -58,7 +66,7 @@ module.exports = class App {
   }
 
   getOrders() {
-    App.#database.find('orders')
+    return App.#database.find('orders')
   }
 
   showDatabase() {

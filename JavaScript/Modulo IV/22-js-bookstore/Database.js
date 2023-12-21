@@ -8,7 +8,7 @@ module.exports = class Database {
   }
 
   find(key) {
-    return this.#storage(key)
+    return this.#storage[key]
   }
 
   saveAuthor(author){
