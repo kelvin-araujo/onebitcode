@@ -1,5 +1,8 @@
 module.exports = class Account {
   #balance
+  // #deposits
+  // #loans
+  // #transfers
 
   constructor(user) {
     this.owner = user
@@ -19,11 +22,11 @@ module.exports = class Account {
   }
 
   addLoan(loan) {
-    this.#balance += loan.value
-    this.loan.push(loan)
+    this.#balance =+ loan.value
+    this.loans.push(loan)
   }
 
-  addTranfer(transfer) {
+  addTransfer(transfer) {
     if (transfer.toUser.email === this.owner.email) {
       this.#balance += transfer.value
       this.transfers.push(transfer)

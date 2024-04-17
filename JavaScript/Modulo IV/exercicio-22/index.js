@@ -1,4 +1,4 @@
-const App = require()
+const App = require("./App")
 
 App.createUser('kelvin@email.com', 'Kelvin Araujo')
 App.createUser('solany@email.com', 'Solany Araujo')
