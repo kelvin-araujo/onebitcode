@@ -12,8 +12,8 @@ App.changeLoanFee(10)
 App.takeLoan('isabela@email.com', 2000, 24)
 
 console.log(App.findUser('kelvin@email.com'))
-console.table(App.findUser('kelvin@email.com')).account
+console.log(App.findUser('kelvin@email.com').account)
 console.log(App.findUser('solany@email.com'))
-console.table(App.findUser('solany@email.com')).account
+console.log(App.findUser('solany@email.com').account)
 console.log(App.findUser('isabela@email.com'))
-console.table(App.findUser('isabela@email.com')).account
+console.log(App.findUser('isabela@email.com').account)
